@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.header-layer{
+    background-color: black;
+    color: white;
+    font-weight: 200;
+    font-size: 0.75em;
+
+}
+.header-layer ul{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    
+}
+.internal-header-layer{
+   
+    width: 980px;
+    padding:  0 10px;
+    margin: 0 auto;
+}
+.header-layer .header-links-layer ul li a{
+	text-decoration: none;
+	color: #ffffff;
+    
+}
+.header-layer ul{
+    list-style:none;
+}
+.header-layer  .header-links-layer ul  li {
+	display: inline-block;
+   padding: 14px  0 8px;
+    height: 25px;
+    opacity: 0.8;
+    
+    
+}
+
+.logo-link, .search-link, .cart-link {
+	width: 18px;	
+	display: block;
+}
+.header-layer .header-links-layer ul  li:hover {
+	opacity: 1;
+}
+.header-layer .header-links-layer ul  li .search-link {
+	padding: 14px 0 8px;
+}
+.header-layer .header-links-layer ul  li .cart-link {
+	padding: 12px 0 10px;
+}
+.header-layer .header-links-layer ul  li .logo-link {
+	padding: 14px 0 10px;
+}
+
+/* main highilight layer*/
+
+.main-highlight-layer {
+    background: #fafafa;
+    text-align: center;
+    padding: 25px 0;
+}
+.internal-layer{
+    width: 980px;
+padding: 0 10px;
+margin: 0 auto;
+
+}
+
+.model{
+    font-size: .85em;
+}
+.product-style{
+    font-weight: 700;
+font-size: 56px;
+
+
+}
+.brief-discription{
+    font-size: 2em;
+    font-weight:400;
+}
+.links-layer {
+	padding: 15px 0;
+}
+.links-layer ul li {
+	display: inline-block;
+	padding-right: 20px;
+}
+.links-layer ul li a {
+	color: #06c;
+	text-decoration: none;
+}
+.links-layer ul li a:hover {
+	color: #000;
+}
+.links-layer ul li a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    padding-left: 10px;
+    
+  }
+  
+  /*second highlight layer*/
+  .second-highlight-layer{
+    background-image: url(/apple-website/images/home/iphone11-pro-bg.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+    background-attachment: scroll;
+    padding:70px 50px;
+    background-position: center;
+    color: white;
+
+  }
+  .top-text{
+    font-weight: 600;
+    font-size: 56px;
+    margin-bottom: 10px;
+  }
+  .description-layer{
+    font-size: 26px;
+    padding:10px  0;
+  }
+  .second-pricing-layer{
+    color: #86868b;
+    font-size: 0.85em;
+    opacity: 0.8;
+  }
+  .links-layer ul li {
+    display: inline-block;
+    padding: 15px 0;
+
+  }
+  /*third highlight layer*/
+  .third-highlight-layer{
+    background-image: url(/apple-website/images/home/iphone11-bg.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+    background-attachment: scroll;
+    padding:70px 50px;
+    background-position: center;
+    color: black;
+}
+/*fourth layer*/
+.fourth-highlight-layout {
+    display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: #fff;
+}
+.left-side-layer{
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 49%;
+    margin: 1% 0.5% 0% 1%;
+    padding-top: 54px;
+    text-align: center;
+}
+.left-side-layer{
+    background-image: url(/apple-website/images/home/watch-series-5.jpg);
+}
+
+.right-side-layer{
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 49%;
+    margin: 1% 1% 0% 0.5%;
+    padding-top: 54px;
+    text-align: center;
+
+}
+.fourth-description-layer{
+   margin: 0 auto;
+	padding: 5px; 
+    font-weight: 4;
+    line-height: 30px;
+}
+.fourth-highlight-layout .left-side-layer .links-layer{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.right-side-layer{
+    background-image: url(/apple-website/images/home/apple-card.jpg);
+
+}
+
+/*fifth highloght layout*/
+.fifth-highlight-layout{
+   background: #ffffff;
+    display:flex;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+}
+.fifth-left-side-layer{
+    height: 600px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding-top: 54px;
+    width: 49%;
+    margin: 1% 0.5% 0 1%;
+    text-align: center;
+}
+.fifth-left-side-layer{
+    background-image: url(/apple-website/images/home/apple-tv-background.jpg);
+}
+
+.tv-show-logo-layer{
+    padding:180px 0 200px ;
+}
+.watch-links-layer {
+    padding-top: 20px;
+}
+.watch-links-layer a {
+    font-size: 0.85em;
+    text-decoration:none;
+}
+.watch-links-layer a:after{
+   font-weight: 900;
+   content: "\f144";
+   padding-left: 15px;
+
+}
+.fifth-right-side-layer{
+    height:600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 49%;
+    margin: 1% 1% 0 0.5%;
+    padding-top: 54px;
+    text-align: center;
+}
+.fifth-right-side-layer{
+    background-image: url(/apple-website/images/home/air-pods.jpg);
+    background-color: #000000;
+    background-size: initial;
+    color: white;
+    background-position: bottom;
+
+}
+.fifth-description-layer{
+    margin: 0 auto;
+	padding: 5px; 
+    font-weight: 4;
+    line-height: 30px;
+    
+}
+
+/*sixth highlight layer*/
+
+.sixth-highlight-layout{
+    background: #ffffff;
+     display:flex;
+     justify-content: space-between;
+     -webkit-box-pack: justify;
+ }
+
+.sixth-left-side-layer{
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding-top: 54px;
+    width: 49%;
+    margin: 1% 0.5% 0 1%;
+    text-align: center;
+
+}
+.sixth-left-side-layer{
+    background-image:  url("/apple-website/images/home/macbook-pro.jpg"); 
+	background-size: initial;
+	background-color: #fafafa;
+	background-position: bottom;
+}
+
+.sixth-right-side-layer{
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding-top: 54px;
+    width: 49%;
+    margin: 1% 1% 0 0.5%;
+    text-align: center;
+
+}
+.sixth-right-side-layer{
+    background-image: url(/apple-website/images/home/new-ipad.jpg);
+}
+
+.sixth-description-layer{
+    margin: 0 auto;
+	padding: 5px; 
+    font-weight: 4;
+    line-height: 30px;
+}
+
+/* footer design */
+.footer{
+    background-color: #f5f5f7;
+    margin: 0 auto;
+    padding: 0 10px;
+    font-size: .65em;
+}
+ .inner-footer{
+   
+        width: 980px;
+        padding: 0 10px;
+        margin: 0 auto;
+    
+}
+.upper-text {
+    text-decoration: none;
+    color: #4e4e52;
+    padding: 17px 0  20px;
+    line-height: 20px;
+}
+.upper-text a{
+    text-decoration: none;
+    color: black;
+}
+.upper-text a:hover{
+    text-decoration: underline
+}
+.middel-content{
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    padding-top: 20px;
+  
+}
+.middel-content  ul li a {
+    color: #4e4e52;
+    text-decoration: none;
+
+}
+.middel-content  ul li a:hover{
+text-decoration: underline;
+}
+.middel-content  ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 0;
+}
+.middel-content  h6 {
+    font-size: 1em;;
+}
+.s-f, .fo-f, .fo-s, .fo-t, .fi-f{
+    padding-bottom: 15px;
+}
+.referance a{
+    color: #938e8e;
+    text-decoration: none;
+}
+.referance a:hover{
+text-decoration: underline;
+}
+.referance{
+    padding-bottom: 10px;;
+}
+ 
+
+.bottom{
+    display: flex;
+    padding:15px 0;
+    
+    
+}
+.bottom .links ul  {
+    display: flex;
+  margin: 0 150px;
+  list-style: none;
+ 
+   }
+   .bottom .links ul a{
+    margin: 0 10px;
+   
+    color: #4e4e52;
+    text-decoration: none;
+   }
+   .bottom .links ul a:hover{
+        text-decoration: underline;
+        color: #86868b;
+   }
